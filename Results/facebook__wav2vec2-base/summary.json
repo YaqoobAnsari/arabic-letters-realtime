@@ -1,0 +1,78 @@
+{
+  "model_id": "facebook/wav2vec2-base",
+  "safe_name": "facebook__wav2vec2-base",
+  "num_labels": 28,
+  "labels": [
+    "Aain",
+    "Alif",
+    "Ba",
+    "Dal",
+    "Daud",
+    "Faa",
+    "Ghain",
+    "Haa",
+    "Hha",
+    "Jeem",
+    "Kaaf",
+    "Kha",
+    "Laam",
+    "Meem",
+    "Noon",
+    "Qauf",
+    "Raa",
+    "Saa",
+    "Saud",
+    "Seen",
+    "Sheen",
+    "Ta",
+    "Tua",
+    "Wao",
+    "Yaa",
+    "Zaa",
+    "Zhal",
+    "Zua"
+  ],
+  "training": {
+    "num_epochs": 8,
+    "batch_size": 32,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "fp16": false,
+    "gradient_accumulation_steps": 1
+  },
+  "metrics": {
+    "val": {
+      "eval_loss": 0.2430470734834671,
+      "eval_accuracy": 0.9675675675675676,
+      "eval_macro_f1": 0.9677541678062103,
+      "eval_weighted_f1": 0.9675199657612604,
+      "eval_balanced_accuracy": 0.9673796013432739,
+      "eval_mcc": 0.9663969379339407,
+      "eval_runtime": 3.505,
+      "eval_samples_per_second": 633.386,
+      "eval_steps_per_second": 19.972,
+      "epoch": 8.0
+    },
+    "test": {
+      "eval_loss": 0.24330109357833862,
+      "eval_accuracy": 0.9662009914375845,
+      "eval_macro_f1": 0.9657212653474442,
+      "eval_weighted_f1": 0.9657122907591243,
+      "eval_balanced_accuracy": 0.9654897097219637,
+      "eval_mcc": 0.965064913322995,
+      "eval_runtime": 3.4459,
+      "eval_samples_per_second": 643.963,
+      "eval_steps_per_second": 20.314,
+      "epoch": 8.0
+    }
+  },
+  "latency_ms_per_example": 0.971762090921402,
+  "latency_examples_measured": 800,
+  "model_size_mb": 360.78,
+  "paths": {
+    "models_dir": "/data1/yansari/Kutuby/Models/facebook__wav2vec2-base",
+    "results_dir": "/data1/yansari/Kutuby/Results/facebook__wav2vec2-base"
+  },
+  "created_at": "2025-09-15 06:35:02"
+}

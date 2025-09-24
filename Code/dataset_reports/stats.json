@@ -1,0 +1,55 @@
+{
+  "dataset_dir": "/data1/yansari/Kutuby/Dataset",
+  "prepared_audio": false,
+  "prepared_dir": null,
+  "num_classes": 28,
+  "classes": [
+    "Aain",
+    "Alif",
+    "Ba",
+    "Dal",
+    "Daud",
+    "Faa",
+    "Ghain",
+    "Haa",
+    "Hha",
+    "Jeem",
+    "Kaaf",
+    "Kha",
+    "Laam",
+    "Meem",
+    "Noon",
+    "Qauf",
+    "Raa",
+    "Saa",
+    "Saud",
+    "Seen",
+    "Sheen",
+    "Ta",
+    "Tua",
+    "Wao",
+    "Yaa",
+    "Zaa",
+    "Zhal",
+    "Zua"
+  ],
+  "total_valid_files": 22200,
+  "total_invalid_files": 0,
+  "total_duration_s": 22200.0,
+  "total_duration_h": 6.1667,
+  "samplerate_distribution": {
+    "16000": 22200
+  },
+  "channel_distribution": {
+    "1": 22200
+  },
+  "num_duplicate_groups": 0,
+  "split_sizes": {
+    "train": 17761,
+    "val": 2220,
+    "test": 2219
+  },
+  "warnings": [],
+  "created_at": "2025-09-15 05:18:42",
+  "version": "1.0.0"
+}

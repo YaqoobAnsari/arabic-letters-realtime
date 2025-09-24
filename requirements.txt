@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+transformers
+soundfile
+matplotlib
+numpy
+resampy
+huggingface_hub
+pyngrok

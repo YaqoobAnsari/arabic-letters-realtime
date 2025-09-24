@@ -1,0 +1,34 @@
+# env & caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data
+Dataset/
+Models/
+Audio_data.tar.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore all Results by default
+Results/*
+
+# Keep small diagnostics only
+!Results/facebook__wav2vec2-base
+Results/facebook__wav2vec2-base/*
+!Results/facebook__wav2vec2-base/confusion_matrix.png
+!Results/facebook__wav2vec2-base/per_class_report.csv
+!Results/facebook__wav2vec2-base/summary.json
+
+# Explicitly ignore model folder & training junk
+Results/facebook__wav2vec2-base/model/
+Results/facebook__wav2vec2-base/checkpoint-*/
+Results/facebook__wav2vec2-base/*.pt
+Results/facebook__wav2vec2-base/*.bin
+Results/facebook__wav2vec2-base/*.json
+Results/facebook__wav2vec2-base/*.safetensors
+Results/facebook__wav2vec2-base/*.pth
+Results/facebook__wav2vec2-base/test_predictions.csv
+Results/facebook__wav2vec2-base/confusion_matrix.csv
