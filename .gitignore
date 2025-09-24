@@ -26,9 +26,9 @@ Results/facebook__wav2vec2-base/*
 Results/facebook__wav2vec2-base/model/
 Results/facebook__wav2vec2-base/checkpoint-*/
 Results/facebook__wav2vec2-base/*.pt
-Results/facebook__wav2vec2-base/*.bin
-Results/facebook__wav2vec2-base/*.json
+Results/facebook__wav2vec2-base/*.bin 
 Results/facebook__wav2vec2-base/*.safetensors
 Results/facebook__wav2vec2-base/*.pth
 Results/facebook__wav2vec2-base/test_predictions.csv
 Results/facebook__wav2vec2-base/confusion_matrix.csv
+hf_export/
